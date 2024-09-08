@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(255, 232, 199);
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    margin: 0cm;
+}
+
+#logo{
+    margin:0px;
+    padding: 0px;
+    font-family: "Fredoka One", sans-serif;
+    box-shadow: 0px 10px 15px 2px brown;
+    width:16%;
+    border-radius: 23%;
+}
+
+ul{
+    margin: 0px;
+    /* MARGINS: ; == if theres only 2 pixels mentioned it will pad top/bottom and left/right if theres 4 it goes clockwise, if only one it pads every side  */
+    /* padding will not move the oclours itll will only pad the text */
+}
+
+body > header > nav > ul{
+/* this is for the list in general */
+    list-style:none;
+    text-decoration: none;
+    display: flex;
+}
+
+.navlinks{
+/* this is for the list items */
+    color: beige;
+    text-decoration: none;
+    padding:10px;
+    margin: 16px;
+    border: 1px solid  beige;
+    border-radius: 10%;
+}
+
+body>header{
+    background-color:rgb(255, 155, 63);
+    color:beige;
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: rgb(255, 155, 63);
+}
+
+body>footer{
+    display: flex;
+}
+
+article{
+    width: 80%;
+    margin: auto;
+}
+
+form{
+    text-align: center;
+}
+
+body>main>h2{ 
+    text-align:center;
+}
+
+img{
+    border-radius: 50%;
+}
+
+#footlist{
+    display: flex;
+    list-style: none;
+
+}
+#footlist > div > li > a{
+    color:beige;
+    /* border: 1px beige solid; */
+    margin: 10px;
+    text-decoration: none;
+}
+
+#main-content > div{
+    width:80%;
+}
+#main-content {
+    display:flex;
+    justify-content: space-around;
+}
+
+
